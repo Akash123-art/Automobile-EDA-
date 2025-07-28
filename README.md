@@ -1,33 +1,33 @@
-# python-project
-1st python project of EDA
-Tittle of project :- EDA of automobile data set
-Discription:-
-How the data set are distributed
-Correlation between different fields and how they are related
-Normalized loss of the manufacturer
-Symboling : Cars are initially assigned a risk factor symbol associated with its price
-Mileage : Mileage based on City and Highway driving for various make and attributes
-Price : Factors affecting Price of the Automobile.
-Importance of drive wheels and curb weight
+# 🚗 Automobile Dataset EDA
 
+## 🔍 Project Overview
+This project explores and analyzes the Automobile dataset using Python. The goal is to uncover key insights related to car prices, performance, fuel types, and design features using data visualizations and regression techniques.
 
-About Dataset
-Context
-This dataset consist of data From 1985 Ward's Automotive Yearbook. Here are the sources
+## 📁 Dataset
+- Source: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/automobile)
+- Records: 200+ car models
+- Features: Price, engine size, horsepower, fuel type, body style, number of doors, etc.
 
-Sources:
+## 🧰 Tools Used
+- Python (Pandas, Seaborn, Matplotlib)
+- Jupyter Notebook
+- Scikit-learn (Linear Regression)
+- SQLite (optional for queries)
 
-1) 1985 Model Import Car and Truck Specifications, 1985 Ward's Automotive Yearbook.
-2) Personal Auto Manuals, Insurance Services Office, 160 Water Street, New York, NY 10038
-3) Insurance Collision Report, Insurance Institute for Highway Safety, Watergate 600, Washington, DC 20037
+## 📊 Key Analyses
+- Correlation heatmap between price & features
+- Fuel type vs car price (boxplot)
+- Price vs horsepower (scatter plot)
+- Body style distribution
+- Missing value handling and data cleaning
 
-Content
-This data set consists of three types of entities: (a) the specification of an auto in terms of various characteristics, (b) its assigned
-insurance risk rating, (c) its normalized losses in use as compared to other cars. The second rating corresponds to the degree to which the auto is more risky than its price indicates. Cars are initially assigned a risk factor symbol associated with its price. Then, if it is more risky (or less), this symbol is adjusted by moving it up (or down) the scale. Actuarians call this process "symboling". A value of +3 indicates that the auto is risky, -3 that it is probably pretty safe.
+## 🧠 Bonus: Linear Regression Model
+- Trained a basic model to predict `price` from horsepower, engine-size, and curb-weight.
+- Evaluated using R² and RMSE metrics.
 
-The third factor is the relative average loss payment per insured vehicle year. This value is normalized for all autos within a particular size classification (two-door small, station wagons, sports/speciality, etc…), and represents the average loss per car per year.
+## 📌 Sample Insights
+- Larger engine size → higher price
+- Diesel cars generally cost more
+- Two-door sporty models have a wider price range
 
-Note: Several of the attributes in the database could be used as a "class" attribute.
-
-Inspiration
-Please bring it on whatever inferences you can get it.
+## 🗂 Folder Structure

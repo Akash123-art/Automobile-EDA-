@@ -31,3 +31,24 @@ This project explores and analyzes the Automobile dataset using Python. The goal
 - Two-door sporty models have a wider price range
 
 ## 🗂 Folder Structure
+data/ → CSV dataset
+notebook/ → Jupyter notebook
+images/ → Exported graphs
+README.md → This file
+
+
+## 📷 Screenshots
+![Scatter](images/scatter_price_vs_hp.png)  
+![Heatmap](images/heatmap_correlation.png)
+
+## 🚀 Future Improvements
+- Add Power BI dashboard  
+- Store dataset in SQL and run summary queries  
+- Deploy as web app using Streamlit
+
+---
+
+## 🧵 Connect with Me
+If you're hiring or mentoring in data roles, I'm open to internships and learning opportunities!
+
+
